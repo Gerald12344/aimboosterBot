@@ -1,0 +1,19 @@
+{
+  "name": "aimboosterhack",
+  "version": "1.0.0",
+  "description": "Mine little secret.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "GeraldIn2016",
+  "license": "ISC",
+  "dependencies": {
+    "desktop-screenshot": "^0.1.1",
+    "keypress": "^0.2.1",
+    "mouse": "0.0.1",
+    "pngjs": "^5.0.0",
+    "robotjs": "^0.6.0",
+    "simple-keyboard": "^2.29.75"
+  }
+}
