@@ -138,11 +138,11 @@ function Image() {
 Image()
 
 ioHook.on("keydown", event => {
-    if (event.altKey && event.keycode == 35) {
+    if (event.altKey && event.keycode == 65) {
         iterations = -1
         console.log("Program Halted.")
     }
-    if (event.altKey && event.keycode == 34) {
+    if (event.altKey && event.keycode == 66) {
         iterations = 1
         console.log("Program continued.")
         Image()
